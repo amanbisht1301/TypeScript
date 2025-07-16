@@ -24,3 +24,14 @@ function user3 ([penname,penprice]:[string,number]){
 }
 
 user3(["parker",300]);
+
+
+// return function with tupple 
+
+function user4(): [string , number]{
+    return ["Aman",10000];
+}
+
+let  [newname , salarynew ] = user4();
+
+console.log ([newname,salarynew]);
